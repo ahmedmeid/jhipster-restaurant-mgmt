@@ -1,11 +1,2 @@
-id;quantity;special_requests
-1;10377;grotesque uh-huh fries
-2;24375;yahoo consequently
-3;7021;sharply heartbeat qua
-4;28004;fooey
-5;7647;excepting aw
-6;7321;bleakly shrilly for
-7;27518;likewise
-8;1526;lunch pair though
-9;21851;yippee unethically
-10;10552;mmm phooey
+id;quantity;special_requests;menu_item_id;dine_in_order_id
+1;1;extra cheese;1;1

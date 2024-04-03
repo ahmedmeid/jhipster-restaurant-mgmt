@@ -1,11 +1,11 @@
-id;category_name;category_description
-1;hubris levitate race;servant clogs or
-2;aboard puggle;urgently fossilise off
-3;faint cheer difference;carbon
-4;but;commend
-5;among near;once around meh
-6;firm;beetle yellow descendant
-7;politely unlike tenderly;extremely limit
-8;pesky over;checking normal worriedly
-9;mmm;justly
-10;pain virtuous decompress;gosh
+id;category_name;category_description;menu_id
+1;Appetizers;Delicious collection of salads and side dishes;1
+2;Main Course;Our Speciality dishes;1
+3;Hot Beverages;Nice hot drinks;1
+4;Cold Beverages;Refreshing cold drinks;1
+5;Desserts;Sweet treats;1
+6;Appetizers;Delicious collection of salads and side dishes;2
+7;Main Course;Our Speciality dishes;2
+8;Hot Beverages;Nice hot drinks;2
+9;Cold Beverages;Refreshing cold drinks;2
+10;Desserts;Sweet treats;2
