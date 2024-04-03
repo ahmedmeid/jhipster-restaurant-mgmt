@@ -1,0 +1,59 @@
+
+application {
+  config {
+    baseName rstrntgmgt
+    applicationType monolith
+    packageName com.ahmedmeid.rstrntgmgt
+    authenticationType jwt
+    devDatabaseType h2Memory
+    prodDatabaseType postgresql
+    clientFramework react
+    buildTool gradle
+  }
+  entities *
+}
+
+entity Restaurant {
+ restaurantName String
+ restaurantDescription String
+ noOfTables Integer
+}
+
+entity RestaurantMenu {
+menuName String
+menuDescription String
+}
+
+entity MenuCategory {
+categoryName String
+categoryDescription String
+}
+
+entity MenuItem {
+itemName String
+itemDescription String
+ingredients String
+price Float
+}
+
+entity DineInOrder {
+orderTime Instant
+tableNumber Integer
+}
+
+entity OrderItem {
+quantity Integer
+specialRequests String
+}
+
+relationship OneToMany {
+  Restaurant to RestaurantMenu{restaurant(restaurantName)}
+  Restaurant to DineInOrder{restaurant(restaurantName)}
+  RestaurantMenu to MenuCategory{menu(menuName)}
+  MenuCategory to MenuItem{menuCategory(categoryName)}
+  DineInOrder to OrderItem
+}
+
+relationship OneToOne {
+ OrderItem{menuItem(itemName)} to MenuItem 
+}
