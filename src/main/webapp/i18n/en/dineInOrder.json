@@ -1,0 +1,27 @@
+{
+  "rstrntgmgtApp": {
+    "dineInOrder": {
+      "home": {
+        "title": "Dine In Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Dine In Order",
+        "createOrEditLabel": "Create or edit a Dine In Order",
+        "notFound": "No Dine In Orders found"
+      },
+      "created": "A new Dine In Order is created with identifier {{ param }}",
+      "updated": "A Dine In Order is updated with identifier {{ param }}",
+      "deleted": "A Dine In Order is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Dine In Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Dine In Order"
+      },
+      "id": "ID",
+      "orderTime": "Order Time",
+      "tableNumber": "Table Number",
+      "orderItem": "Order Item",
+      "restaurant": "Restaurant"
+    }
+  }
+}

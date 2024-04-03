@@ -1,0 +1,35 @@
+{
+  "annotations": {
+    "changelogDate": "20240403111504"
+  },
+  "applications": ["rstrntgmgt"],
+  "fields": [
+    {
+      "fieldName": "itemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "itemDescription",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ingredients",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Float"
+    }
+  ],
+  "name": "MenuItem",
+  "relationships": [
+    {
+      "otherEntityField": "categoryName",
+      "otherEntityName": "menuCategory",
+      "relationshipName": "menuCategory",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

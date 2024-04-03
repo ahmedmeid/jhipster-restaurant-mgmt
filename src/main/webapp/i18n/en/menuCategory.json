@@ -1,0 +1,27 @@
+{
+  "rstrntgmgtApp": {
+    "menuCategory": {
+      "home": {
+        "title": "Menu Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Menu Category",
+        "createOrEditLabel": "Create or edit a Menu Category",
+        "notFound": "No Menu Categories found"
+      },
+      "created": "A new Menu Category is created with identifier {{ param }}",
+      "updated": "A Menu Category is updated with identifier {{ param }}",
+      "deleted": "A Menu Category is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Menu Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Menu Category"
+      },
+      "id": "ID",
+      "categoryName": "Category Name",
+      "categoryDescription": "Category Description",
+      "menuItem": "Menu Item",
+      "menu": "Menu"
+    }
+  }
+}

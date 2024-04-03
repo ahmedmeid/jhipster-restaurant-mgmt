@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20240403111204"
+  },
+  "applications": ["rstrntgmgt"],
+  "fields": [
+    {
+      "fieldName": "restaurantName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "restaurantDescription",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "noOfTables",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Restaurant",
+  "relationships": [
+    {
+      "otherEntityName": "restaurantMenu",
+      "otherEntityRelationshipName": "restaurant",
+      "relationshipName": "restaurantMenu",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "dineInOrder",
+      "otherEntityRelationshipName": "restaurant",
+      "relationshipName": "dineInOrder",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "rstrntgmgt",
+    "buildTool": "gradle",
+    "clientFramework": "react",
+    "creationTimestamp": 1712143270951,
+    "devDatabaseType": "h2Memory",
+    "devServerPort": 9060,
+    "entities": ["Restaurant", "RestaurantMenu", "MenuCategory", "MenuItem", "DineInOrder", "OrderItem"],
+    "jhipsterVersion": "8.2.1",
+    "jwtSecretKey": "MmIyODZhZmY3ZmViZjdhYjY1MGMxMzdjNThjM2EwOTk1OTRjODNkMWE2YWY1Y2E1YjY5MTdkODhkNzZmOTg3N2FkZDA1NTk4ZDg4OGY0ZmRlZWQxYWJjMDI1YzQ4OWU2OTJjYTZmOThmMDg5MGM4MDYxYWVhMDIxYzU1ZDRmMDc=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1712143024000,
+    "nativeLanguage": "en",
+    "packageFolder": "com/ahmedmeid/rstrntgmgt",
+    "packageName": "com.ahmedmeid.rstrntgmgt",
+    "prodDatabaseType": "postgresql"
+  }
+}
