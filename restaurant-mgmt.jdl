@@ -1,9 +1,10 @@
 
 application {
   config {
-    baseName rstrntgmgt
+    baseName rstrntmgmt
     applicationType monolith
-    packageName com.ahmedmeid.rstrntgmgt
+    reactive true
+    packageName com.ahmedmeid.rstrntmgmt
     authenticationType jwt
     devDatabaseType h2Memory
     prodDatabaseType postgresql
@@ -55,5 +56,5 @@ relationship OneToMany {
 }
 
 relationship OneToOne {
- OrderItem{menuItem(itemName)} to MenuItem 
+ OrderItem{menuItem(itemName)} to MenuItem
 }
